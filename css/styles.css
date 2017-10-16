@@ -1,0 +1,23 @@
+.carousel-container {
+	max-width: 75%;
+	max-height: 50%;
+	margin: auto;
+}
+
+.menu-top {
+	display: inline !important;
+	padding-right: 15px;
+	padding-left: 0px;
+
+}
+
+.menu-top-logo {
+	display: inline;
+	padding-right: 60%;
+}
+
+.menu-top-list {
+	list-style-type: none;
+	bottom: 0;
+}
+
