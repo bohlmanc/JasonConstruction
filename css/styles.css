@@ -2,13 +2,12 @@
 	max-width: 75%;
 	max-height: 50%;
 	margin: auto;
+	background-color: #add8e6 !important;
 }
 
 .menu-top {
 	display: inline !important;
-	padding-right: 15px;
-	padding-left: 0px;
-
+	float: right;
 }
 
 .menu-top-logo {
@@ -21,3 +20,16 @@
 	bottom: 0;
 }
 
+.heading-top {
+	background-color: #add8e6;
+}
+
+.btn-quote a {
+	color: white !important;
+	text-decoration: none !important;
+}
+
+.btn-quote {
+	background-color: green;
+	margin-top:9% !important;
+}
