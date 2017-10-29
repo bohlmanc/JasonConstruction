@@ -40,5 +40,12 @@
 
 	max-width: 25%;
 	margin: auto;
+}
 
+.img-tbl {
+  width: 25%;
+}
+
+.img-container {
+  width: 25%
 }
