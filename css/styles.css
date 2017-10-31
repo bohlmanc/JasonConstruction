@@ -1,6 +1,6 @@
 .carousel-container {
-	max-width: 75%;
-	max-height: 25%;
+	max-width: 125%;
+	/*max-height: 25%;*/
 	margin: auto;
 	background-color: #add8e6 !important;
 }
@@ -42,10 +42,52 @@
 	margin: auto;
 }
 
-.img-tbl {
+/*.img-tbl {
   width: 25%;
+}*/
+
+.img-row {
+	display: table-row;
+	text-align: center;
+	margin: auto;
 }
 
-.img-container {
-  width: 25%
+.img-circle {
+	border-radius: 50%;
+	width: 85%;
+}
+
+.img-and-caption {
+	text-align: center;
+	display: table-cell;
+}
+
+.tbl-container {
+	display: table;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding: 10% 4% 10% 4%;
+}
+
+.footer {
+	text-align: center;
+	color: white;
+	background-color: rgba(0, 51, 102, .95);
+	padding-top: 3%;
+	padding-bottom: 2%;
+	font-size: 135%;
+}
+
+.bottom-links{
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.links-container{
+	width: auto;
+	align-self: center;
+	margin-top: 2%;
+	margin-bottom: 1%;
 }
