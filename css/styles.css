@@ -1,5 +1,5 @@
 .carousel-container {
-	max-width: 125%;
+	max-width: 100%;
 	/*max-height: 25%;*/
 	margin: auto;
 	background-color: #add8e6 !important;
@@ -13,6 +13,7 @@
 .menu-top-logo {
 	display: inline;
 	padding-right: 60%;
+
 }
 
 .menu-top-list {
@@ -54,7 +55,7 @@
 
 .img-circle {
 	border-radius: 50%;
-	width: 85%;
+	width: 70%;
 }
 
 .img-and-caption {
@@ -66,13 +67,13 @@
 	display: table;
 	margin-top: 5%;
 	margin-bottom: 5%;
-	padding: 10% 4% 10% 4%;
+	padding: 8% 4% 10% 4%;
 }
 
 .footer {
 	text-align: center;
 	color: white;
-	background-color: rgba(0, 51, 102, .95);
+	background-color: rgb(31, 51, 71);
 	padding-top: 3%;
 	padding-bottom: 2%;
 	font-size: 135%;
@@ -90,4 +91,43 @@
 	align-self: center;
 	margin-top: 2%;
 	margin-bottom: 1%;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    width: 70%;
+    margin: 2% 0;
+    padding: 3% 10%;
+    position: relative;
+    color: white;
+		align: center;
+}
+
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+}
+
+.quote {
+	padding-bottom: 7%;
+	padding-left: 25%;
+	padding-top: 2%;
+	background-color: rgb(31, 51, 71);
 }
