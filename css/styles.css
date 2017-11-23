@@ -1,8 +1,6 @@
-/** {margin: 0; padding: 0;}*/
 
 .carousel-container {
 	max-width: 100%;
-	/*max-height: 25%;*/
 	margin: auto;
 	background-color: #add8e6 !important;
 }
@@ -45,10 +43,6 @@
 	margin: auto;
 }
 
-/*.img-tbl {
-  width: 25%;
-}*/
-
 .img-row {
 	display: table-row;
 	text-align: center;
@@ -72,6 +66,12 @@
 	padding: 6% 4% 7.5% 4%;
 }
 
+.tbl-container-services {
+	display: table;
+	margin-bottom: 5%;
+	padding: 4% 4% 4% 4%;
+}
+
 .footer {
 	text-align: center;
 	color: white;
@@ -79,6 +79,7 @@
 	padding-top: 3%;
 	padding-bottom: 2%;
 	font-size: 135%;
+	width: 100%;
 }
 
 .bottom-links{
@@ -150,11 +151,11 @@ blockquote:after {
 
 /*keyframe animations*/
 .first {
-	-webkit-animation: bannermove 90s linear infinite;
-	   -moz-animation: bannermove 90s linear infinite;
-	    -ms-animation: bannermove 90s linear infinite;
-	     -o-animation: bannermove 90s linear infinite;
-	        animation: bannermove 90s linear infinite;
+	-webkit-animation: bannermove 120s linear infinite;
+	   -moz-animation: bannermove 120s linear infinite;
+	    -ms-animation: bannermove 120s linear infinite;
+	     -o-animation: bannermove 120s linear infinite;
+	        animation: bannermove 120s linear infinite;
 }
 
 @keyframes "bannermove" {
@@ -226,4 +227,19 @@ blockquote:after {
 	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 	box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+.top-image {
+	width: 100%;
+	height: 20%;
+	/*height: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+
+.title h1{
+	margin-top: 3%;
+	text-align: center;
+	font-size: 50px;
 }
